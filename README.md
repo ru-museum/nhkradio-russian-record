@@ -2,6 +2,11 @@
 NHKラジオ第２ ロシア語番組録音
 
 - これはNHKラジオ第２放送の「 ロシア語のラジオ番組」を**自動録音**するものです。
+
+## 【注意】  
+- 2026年度の番組改定（3月30日）に依る再編（2波体制）が行われ**第２放送**は**NHK-FM**へと移行されます。  
+[ラジオ再編](https://www.nhk.or.jp/radio/saihen/)
+- 改変後、レポジトリ名を 「**nhkradio-russian-record**」 と変更しスクリプトを一部修正する予定です。　
  
 - [ロシア語の番組案内](https://www2.nhk.or.jp/gogaku/russian/)  
      - [まいにちロシア語（初級編）](https://www.nhk.or.jp/radio/ondemand/detail.html?p=0956_01)  
@@ -99,9 +104,16 @@ REC_TIME="00:00:10"
 　　[https://ru-museum.github.io/nhkradio2-russian-record/](https://ru-museum.github.io/nhkradio2-russian-record/)  
 
 # 【注意】  
-- 配信 URL は時期は不明ですが変更されています。  
+- ストリーミング配信URLは変更されています。  
+<!--
 旧URL: "https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8"  
 新URL: "https://radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/master.m3u8"
-- 録音データは著作権上私的利用のみに限定されていますのでご注意下さい。
+-->
+　【東京の場合】  
+　　　AM: https://simul.drdi.st.nhk/live/3/joined/master.m3u8  
+　　　FM: https://simul.drdi.st.nhk/live/5/joined/master.m3u8  
+  　　※ 回線の都合等、他地域からの配信が必要な場合は、以下でURIを取得出来ます。  
+    　　　ソース内の**番号部分**を変更して下さい。  
+  　　　https://www.nhk.or.jp/radio/config/config_web.xml
 
-
+- **録音データは著作権上私的利用のみに限定されていますのでご注意下さい。**
