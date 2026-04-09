@@ -105,7 +105,7 @@ $ ./nhkradio-russian-record.sh -h
  【注意】   
   "sleep 50;" の記法で以下のエラーが出て録音に失敗する場合は、オプション -s を使用して下さい。  
     Error: bad username; while reading /etc/crontab
-  30 2 * * 1-5 username bash /your/directory/nhkradio-russian-record.sh -i 14 -s 50
+  30 2 * * 1-5 username bash /your/directory/nhkradio-russian-record.sh -i 1 -s 50
 ```
 ### （２）CRONの再起動   
 ```
@@ -164,7 +164,7 @@ $ bash ./nhkradio-russian-record.sh -w am -r 00:10:00 -t NHKニュース -d audi
 - 録音時間を**10秒**程度に設定し実動前のテストを行って下さい。  
  　※ シェルは **bash** を使用して下さい。
 ```
-$ bash ./nhkradio-russian-record.sh -i 14 -r 00:00:10
+$ bash ./nhkradio-russian-record.sh -i 1 -r 00:00:10
  　⇨ 直下に「まいにちロシア語:＜編＞-＜日付＞(＜曜日＞)＜時刻＞.m4a」が保存されれば正常終了です。
 ```
 # 録音ファイル  
