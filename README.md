@@ -5,6 +5,7 @@ NHKラジオFM ロシア語講座録音
 - [まいにちロシア語【初級編】【応用編】](https://www.nhk.jp/p/rs/YRLK72JZ7Q/) //www.nhk.jp/p/rs/YRLK72JZ7Q/  
  [ NHK=>語学](https://www.nhk.jp/g/gogaku/) //www.nhk.jp/g/gogaku/
 - 当スクリプトで他の語学番組等も録音可能ですが、[nhkradio-langs-record](https://github.com/ru-museum/nhkradio-langs-record) 及び [nhkradio-record](https://github.com/ru-museum/nhkradio-record) とを別途提供しています。
+- **nhkradio-russian-record-lite**（旧版）は**ID番号**での指定は出来ません。
 
 ### 【注意】  
 - 2026年度の番組改定（3月30日）に依る再編（2波体制）が行われ**第２放送**は**NHK-FM**へと移行されました。  
