@@ -1,4 +1,8 @@
-# nhkradio2-russian-record CHANGELOG
+# nhkradio-russian-record CHANGELOG
+
+2026-04-09
+- ３月３０日のNHK再編に伴い、レポジトリ名を **nhkradio-russian-record** と改めました。
+- 他講座への対応も含め、全体的なスクリプトの改修を行いました。
 
 2026-02-18
 - ストリーミング配信URIが変更されていたので修正しました。
