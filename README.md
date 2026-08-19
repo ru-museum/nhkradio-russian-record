@@ -7,6 +7,11 @@ NHKラジオFM ロシア語講座録音
 - 当スクリプトで他の語学番組等も録音可能ですが、[nhkradio-langs-record](https://github.com/ru-museum/nhkradio-langs-record) 及び [nhkradio-record](https://github.com/ru-museum/nhkradio-record) とを別途提供しています。
 - **nhkradio-russian-record-lite**（旧版）は**ID番号**での指定は出来ません。
 
+
+### 【CHANGELOG】
+- **FIX**：ストリーミング配信URLが変更された為、修正を行いました(2026-08-20)。  
+ 　　※ 配信URLは**時々変更されることがあります**ので、保存されなくなった時には確認を行って下さい。
+
 ### 【注意】  
 - 2026年度の番組改定（3月30日）に依る再編（2波体制）が行われ**第２放送**は**NHK-FM**へと移行されました。  
 [ラジオ再編](https://www.nhk.or.jp/radio/saihen/)
@@ -185,10 +190,12 @@ $ bash ./nhkradio-russian-record.sh -i 1 -r 00:00:10
 -->
 
 # 注意  
-- ストリーミング配信URLは変更されています。  
+- ストリーミング配信URLは変更されています(2026-08-20)。  
+　simul => simul**2**   
+
 　【東京の場合】  
-　　　AM: https://simul.drdi.st.nhk/live/3/joined/master.m3u8  
-　　　FM: https://simul.drdi.st.nhk/live/5/joined/master.m3u8  
+　　　AM: https://simul2.drdi.st.nhk/live/3/joined/master.m3u8  
+　　　FM: https://simul2.drdi.st.nhk/live/5/joined/master.m3u8  
   　　※ 回線の都合等、他地域からの配信が必要な場合は、以下でURIを取得出来ます。  
     　　　ソース内の**番号部分**を変更して下さい。  
   　　　https://www.nhk.or.jp/radio/config/config_web.xml
