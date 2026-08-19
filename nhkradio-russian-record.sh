@@ -12,8 +12,8 @@
 # と移行しています。
 # 
 # ストリーミング配信URI（東京）
-#  AM: https://simul.drdi.st.nhk/live/3/joined/master.m3u8
-#  FM: https://simul.drdi.st.nhk/live/5/joined/master.m3u8
+#  AM: https://simul2.drdi.st.nhk/live/3/joined/master.m3u8
+#  FM: https://simul2.drdi.st.nhk/live/5/joined/master.m3u8
 # 回線状況等の理由で東京以外の放送波のURLが必要な場合は以下を参照して下さい。
 #  https://www.nhk.or.jp/radio/config/config_web.xml
 #  => /live/* 各地域での番号が異なります
@@ -311,7 +311,7 @@ if [[ "${_PROGRNAME}" != "" ]];then
 fi
 
 # ストリーミング配信 URI
-M3U8URL="https://simul.drdi.st.nhk/live/$WAVENUM/joined/master.m3u8"
+M3U8URL="https://simul2.drdi.st.nhk/live/$WAVENUM/joined/master.m3u8"
 
 # 作業ディレクトリ PATH
 _SCRIPT_DIR=$(cd $(dirname $0) && pwd)
