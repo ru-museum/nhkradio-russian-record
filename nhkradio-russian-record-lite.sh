@@ -10,7 +10,7 @@ TITLE="NHKまいにちロシア語"
 # ストリーミング配信 URL
 # 2026年2月現在 URL は変更されています。
 # M3U8URL="https://radio-stream.nhk.jp/hls/live/2023501/nhkradiruakr2/master.m3u8"
-M3U8URL="https://simul.drdi.st.nhk/live/5/joined/master.m3u8"
+M3U8URL="https://simul2.drdi.st.nhk/live/5/joined/master.m3u8"
 
 # 曜日設定
 arr=("日" "月" "火" "水" "木" "金" "土")
