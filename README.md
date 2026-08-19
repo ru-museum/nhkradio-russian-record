@@ -112,6 +112,14 @@ $ ./nhkradio-russian-record.sh -h
     Error: bad username; while reading /etc/crontab
   30 2 * * 1-5 username bash /your/directory/nhkradio-russian-record.sh -i 1 -s 50
 ```
+ ### 【注意】   
+ (1) "sleep 50;" の記法で以下のエラーが出て録音に失敗する場合は、オプション -s を使用して下さい。  
+　　　Error: bad username; while reading /etc/crontab  
+　　　30 2 * * 1-5 username bash /your/directory/nhkradio-russian-record.sh -i 14 -s 50  
+
+ (2) Debian 系では命名規則により、「**実行ファイル名に . (ピリオド) を含めてはならない**」とあり、  
+  　　CRON で動作しない場合は、拡張子の **.sh** を除外し **nhkradio-russian-record** としてみて下さい。  
+
 ### （２）CRONの再起動   
 ```
 # /etc/init.d/cron restart  // Debian
